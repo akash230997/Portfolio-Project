@@ -283,7 +283,7 @@ h4{
     font-weight: 800;
     border-bottom: 8px solid #FCA738;
 }
-#portfolio , #resume{
+#portfolio{
     width: 62%;
     /* height: 600px; */
     border: 1px solid #000;
@@ -293,6 +293,11 @@ h4{
     display: flex;
     flex-wrap: wrap;
 }
+ #resume{
+    width: 62%;
+    /* border: 1px solid #000; */
+    margin: 50px auto;
+ }
 .items{
     padding-left: 15px;
     /* display: inline-block; */
@@ -302,7 +307,8 @@ h4{
     width: 58%;
     min-height: 600px;
     padding: 20px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
+    display: inline-block;
 }
 .sr-dev{
     width: 100%;
@@ -357,4 +363,60 @@ h4{
     position: absolute;
     top: 22%;
     z-index: 20;
+}
+.resume-right{
+    width: 38%;
+    height: 720px;
+    /* border: 1px solid #000; */
+    display: inline-block;
+    float: right;
+}
+.innerbox{
+    width: 100%;
+    height: 500px;
+    float: right;
+    box-shadow: 10px 20px 20px gray;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    /* border: 1px solid #000; */
+    position: relative;
+}
+/* .innerbox img{
+    position: absolute;
+    top: 0%;
+    left: 2%;
+    border: 1px solid #000;
+} */
+.innerbox-second{
+    width: 100%;
+    margin: auto;
+    height: 100px;
+    background-color: #FFFFFF;
+    /* border: 2px solid #000; */
+    box-shadow: 10px 20px 20px gray;
+    border-radius: 10px;
+    z-index: 50;
+    margin-top: 550px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.items2{
+    padding: 20px;
+    /* border: 1px solid #000; */
+}
+
+/* WHAT PEOPLE SAY ABOUT MEE SECTION*/
+.testimonial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 20%;
+    min-height: 350px;
+    padding: 20px;
+    text-align: center;
+    /* border: 1px solid #000; */
 }
