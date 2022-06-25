@@ -12,7 +12,7 @@ body{
     background-color: #F7F7F7;
 }
 .logo{
-    width: 15%;
+    width: 35%;
     font-size: 2rem;
     color: rgb(42, 101, 42);
     margin-left: 10%;
@@ -142,6 +142,11 @@ body{
 .waveAnimation .waveBottom {
     animation: move_wave 15s linear infinite;
 }
+.fron-end-dev{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
 .left-side{
     width: 50%;
     height: 473px;
@@ -206,7 +211,7 @@ body{
 
 #about-Me{
     width: 80%;
-    height: 600px;
+    /* height: 600px; */
     margin: 50px auto;
     border-radius: 30px;
     /* border: 2px solid #000; */
@@ -266,11 +271,14 @@ body{
 }
 h4{
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 2%;
 }
 .boxx{
     width: 100%;
     /* border: 1px solid #000; */
+}
+.boxx img{
+    padding-left: 5%;
 }
 .Mpp{
     width: 12%;
@@ -373,6 +381,8 @@ h4{
     float: right;
     box-shadow: 10px 20px 20px gray;
     border-radius: 10px;
+    margin-top: 80px;
+
     background-color: #FFFFFF;
     /* border: 1px solid #000; */
     position: relative;
@@ -392,7 +402,7 @@ h4{
     box-shadow: 10px 20px 20px gray;
     border-radius: 10px;
     z-index: 50;
-    margin-top: 550px;
+    margin-top: 640px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -404,11 +414,25 @@ h4{
 }
 
 /* WHAT PEOPLE SAY ABOUT MEE SECTION*/
+
+.Mpp2{
+    width: 25%;
+    text-align: center;
+    font-size: 2.5rem;
+    display: block;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 800;
+    border-bottom: 8px solid #FCA738;
+}
+
 .testimonial{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    /* border: 1px solid #000; */
 }
 .card{
     margin-top: 40px;
@@ -504,3 +528,613 @@ textarea{
     color: #000;
     font-weight: 400;
 }
+.resume-left h2 {
+    font-size: 2rem;
+}
+@media only screen and (min-width:1200px) and (max-width:1650px){
+    .right-side{
+        margin-right: 200px;
+    }
+    #banner{
+        height: 700px;
+    }
+    .btn1{
+        width: 26%;
+    }
+    .btn2{
+        margin-left: 14%;
+        width: 26%;
+    }
+    .left-side{
+        width: 70%;
+    }
+    .fron-end-dev{
+        font-size: 2.2rem;
+        /* border: 1px solid #000; */
+        width: 80%;
+    }
+    .left-side p{
+        margin-top: 30px;
+    }
+    #about-Me{
+        width: 95%;
+        height: 800px;
+    }
+    .road-map{
+        width: 100%;
+        height: 140px;
+    }
+    .boxx img{
+        padding: 2%;
+        width: 8%;
+    }
+    .boxx h4{
+        margin-left: 0%;
+    }
+    .abt-right > .pp{
+        width: 50%;
+    }
+    .Mpp{
+        width: 20%;
+    }
+    #portfolio{
+        width:97%;
+    }
+    #resume{
+        width: 100%;
+    }
+    /* .resume-right{
+        width: 30%;
+    } */
+    .innerbox{
+        width: 90%;
+        float: none;
+    }
+    .innerbox-second{
+        width: 90%;
+        margin: 30px auto;
+        margin-left: -5px;
+    }
+    .view-more-testimonial{
+        margin-top: 180px;
+    }
+    .card{
+        /* padding-bottom: 0%; */
+        padding-left: 100px;
+    }
+    #contact-us{
+        width: 95%;
+    }
+    .contact-left{
+        top: -155px;
+    }
+    .Mpp2{
+        width: 40%;
+    }
+    #responsive{
+        border: 1px solid #000;
+        overflow: hidden;
+    }
+}
+
+
+
+
+@media only screen and (min-width:1000px) and (max-width:1199px) {
+    body{
+        overflow: hidden;
+    }
+    .right-side {
+        margin-right: 200px;
+    }
+
+    #banner {
+        height: 700px;
+        overflow: hidden;
+    }
+
+    .btn1 {
+        width: 26%;
+    }
+
+    .btn2 {
+        margin-left: 14%;
+        width: 26%;
+    }
+
+    .left-side {
+        width: 70%;
+    }
+
+    .fron-end-dev {
+        font-size: 2.2rem;
+        /* border: 1px solid #000; */
+        width: 80%;
+    }
+
+    .left-side p {
+        margin-top: 30px;
+    }
+
+    #about-Me {
+        width: 95%;
+        height: 800px;
+    }
+
+    .road-map {
+        width: 100%;
+        height: 140px;
+    }
+
+    .boxx img {
+        padding: 2%;
+        width: 8%;
+    }
+
+    .boxx h4 {
+        margin-left: 0%;
+    }
+
+    .abt-right>.pp {
+        width: 50%;
+    }
+
+    .Mpp {
+        width: 20%;
+    }
+
+    #portfolio {
+        width: 97%;
+        flex-grow: 1;
+        justify-content: space-evenly;
+    }
+
+    #resume {
+        width: 100%
+    }
+    .resume-left{
+        width: 100%;
+        display: block;
+    }
+    .resume-right{
+        display: block;
+        width: 100%;
+    }
+    .innerbox{
+        width: 90%;
+        margin: 10px auto;
+        overflow: hidden;
+    }
+    .innerbox img{
+        position: relative;
+        right: 100px;
+    }
+    .innerbox-second{
+     position: absolute;
+     right: 5%;
+    }
+
+    /* .resume-right{
+        width: 30%;
+    } */
+    .innerbox {
+        width: 90%;
+        float: none;
+    }
+
+    .innerbox-second {
+        width: 90%;
+        margin: 30px auto;
+        margin-left: -5px;
+        /* float: right; */
+        /* float: none; */
+        /* margin-top: 30px; */
+    }
+   .Mpp2{
+    width: 45%;
+    /* display: inline-block; */
+   }
+   
+    .view-more-testimonial {
+        /* margin-top: 180px; */
+        position: absolute;
+        bottom: 0%;
+    }
+
+    .card {
+        /* padding-bottom: 0%; */
+        padding-left: 100px;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+
+    #contact-us {
+        width: 95%;
+        position: relative;
+    }
+
+    .contact-left {
+        padding: 5%;
+        position: relative;
+        top: -19%;
+    }
+    .inpp{
+        width: 90%;
+    }
+    #responsive{
+        border: 1px solid #000;
+        overflow: hidden;
+    }
+
+}
+
+@media only screen and (min-width:600px) and (max-width:1000px){
+    #header{
+        background-color: #FBF3E4;
+        /* border: 1px solid #000; */
+    }
+    .nav{
+        margin-right: 100px;
+    }
+    .logo{
+        margin-left: 100px;
+    }
+    .left-side {
+        /* border: 1px solid #000; */
+        width: 100%;display: block;
+    }
+    .head-dev{
+        width: 100%;
+        padding: 20px;
+    }
+    .right-side{
+        width: 100%;
+    }
+    #banner{
+        height: 900px;
+    }
+    .abt-left{
+        display: none;
+    }
+    .abt-right{
+        width: 100%;
+        height: 700px;
+        display: block;
+        position: static;
+    }
+    #about-Me{
+        width: 100%;
+        border-radius: 0%;
+        margin: 0%;
+
+    }
+    .abt-right>.pp{
+        width: 30%;
+    }
+    .road-map{
+        width: 100%;
+    }
+    .boxx img{
+        padding-left: 4%;
+    }
+    .Mpp{
+        width: 40%;
+        margin-top: 50px;
+    }
+    #portfolio{
+        width: 100%;
+        justify-content: center;
+        /* align-items: center; */
+        /* padding: 0% 130px; */
+        /* border: 1px solid #000; */
+    }
+    .items{
+        /* width: 100%; */
+        margin-bottom: 20px;
+    }
+
+    #resume{
+        width: 100%;
+        overflow: hidden;
+    }
+    .resume-left{
+        width: 100%;
+        /* border: 1px solid #000; */
+        /* margin-left: 50px; */
+        display: block;
+    }
+    .year-btn{
+        display: block;
+        margin-top: 20px;
+    }
+    .resume-right{
+        width: 100%;
+    }
+    .innerbox{
+        border-radius: 0%;
+        background-color: aliceblue;
+        /* border: 1px solid #000; */
+        background-color: rgba(128, 128, 128, 0.232);
+        z-index: 0;
+    }
+    .innerbox-second{
+        width: 80%;
+        /* height: 120px; */
+        /* margin-top: 640px; */
+        position: static;
+        margin-bottom: 20px;
+        border: 1px solid #000;
+        z-index: 0;
+    }
+    .Mpp2{
+        width: 80%;
+        /* margin-top: 100px; */
+    }
+    .testimonial{
+        justify-content: space-evenly;
+    }
+    #contact-us{
+        width: 100%;
+        height: 1200px;
+        border-radius: 0%;
+    }
+    .contact-left{
+        width: 100%;
+        display: block;
+        height: 600px;
+    }
+    .contact-right{
+        width: 100%;
+        height: 1000px;
+        display: block;
+        position: relative;
+        top: -230px;
+        padding: 10%;
+        margin: 0%;
+    }
+    label{
+        /* display: none; */
+        margin-top: 20px;
+    }
+    #responsive{
+        border: 1px solid #000;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (min-width:350px) and (max-width:599px) {
+    #header {
+        background-color: #FBF3E4;
+        /* border: 1px solid #000; */
+    }
+
+    .nav {
+        /* border: 1px solid #000; */
+        width: 100%;
+        /* padding: 0%; */
+        padding-top: 10px;
+        margin: 0%;
+        
+        /* margin-right: 100px; */
+        /* margin-left: 100px; */
+    }
+    .nav ul{
+        padding: 0%;
+        margin: 0%;
+        padding: 20px 0;
+        /* overflow: hidden; */
+    }
+    .nav ul li a{
+        font-size: 1.1rem;
+    }
+
+    .logo {
+        width: 100%;
+        /* overflow: hidden; */
+        margin-left: 100px;
+    }
+
+    .left-side {
+        /* border: 1px solid #000; */
+        width: 100%;
+        display: block;
+    }
+
+    .head-dev {
+        width: 100%;
+        padding: 5px;
+        font-size: 1.4rem;
+    }
+    .fron-end-dev{
+        font-size: 2rem;
+    }
+
+    .right-side {
+        width: 90%;
+        /* border: 1px solid #000; */
+    }
+    .right-side img{
+        position: relative;
+        left: -180px;
+    }
+    .left-side p{
+        width: 100%;
+    }
+    .btn1{
+        width: 35%;
+    }
+    .btn2{
+        width: 35%;
+    }
+    #banner {
+        width: 100%;
+        height: 900px;
+    }
+
+    .abt-left {
+        display: none;
+    }
+
+    .abt-right{
+        width: 100%;
+        height: 700px;
+        display: block;
+        position: static;
+    }
+
+    #about-Me {
+        width: 100%;
+        height: 1100px;
+        border-radius: 0%;
+        margin: 0%;
+
+    }
+
+    .abt-right>.pp {
+        width: 50%;
+    }
+
+    .road-map{
+        width: 100%;
+        height: 200px;
+    }
+    .boxx{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .boxx img {
+        /* width: 10%; */
+        padding-top: 15px;
+        padding-left: 4%;
+    }
+
+    .Mpp {
+        width: 60%;
+        margin-top: 50px;
+    }
+
+    #portfolio {
+        width: 100%;
+        /* padding: 10px; */
+        justify-content: center;
+        /* align-items: center; */
+        /* padding: 0% 130px; */
+        /* border: 1px solid #000; */
+    }
+    /* .item1{
+        width: 40%;
+    }
+    .item5{
+        display: none;
+    }
+    .item3{
+        width: 100%;
+        display: none;
+    } */
+
+    .items {
+        /* border: 3px solid #000; */
+        flex: none;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    #resume {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .resume-left {
+        width: 100%;
+        /* border: 1px solid #000; */
+        /* margin-left: 50px; */
+        display: block;
+    }
+
+    .year-btn {
+        width: 30%;
+        display: block;
+        margin-top: 20px;
+        margin-right:30px;
+    }
+
+    .resume-right {
+        width: 100%;
+    }
+
+    .innerbox{
+        border-radius: 0%;
+        background-color: aliceblue;
+        /* border: 1px solid #000; */
+        background-color: rgba(128, 128, 128, 0.232);
+        z-index: 0;
+    }
+
+    .innerbox-second {
+        width: 100%;
+        /* height: 120px; */
+        /* margin-top: 640px; */
+        position: relative;
+        top: -40px;
+        margin-bottom: 20px;
+        border: 1px solid #000;
+        z-index: 0;
+    }
+
+    .Mpp2 {
+        width: 100%;
+        display: none;
+        /* display: block; */
+        /* margin-top: 100px; */
+    }
+
+    .testimonial {
+        display: none;
+    }
+
+    #contact-us {
+        width: 100%;
+        height: 1100px;
+        border-radius: 0%;
+        margin: 0%;
+    }
+
+    .contact-left {
+        width: 100%;
+        display: block;
+        height: 600px;
+        padding: 1%;
+    }
+        .contact-left h3{
+            border: 1px solid #000;
+            width: 100%;
+            
+            margin: 0%;
+        }
+
+    .contact-right {
+        width: 100%;
+        /* height:400px; */
+        display: block;
+        position: relative;
+        top: -200px;
+        padding: 2%;
+        margin: 0%;
+    }
+
+    label {
+        /* display: none; */
+        margin-top: 20px;
+    }
+    #responsive{
+        border: 1px solid #000;
+        overflow: hidden;
+    }
+    #footer{
+        font-size: 1rem;
+    }
+}
+
+/* @media only screen and (min-width:560px) and (max-width:){
+    
+} */
