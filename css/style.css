@@ -1212,12 +1212,12 @@ label{
     border-bottom: 1px solid rgba(255, 255, 255, 0.10);
 }
 .menu li a {
+    color: #fff;
     display: block;
     padding: 20px;
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
-    color: #fff;
 }
 input#openSidebarMenu {
     display: none;
