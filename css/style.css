@@ -778,10 +778,10 @@ textarea{
 }
 
 @media only screen and (min-width:600px) and (max-width:1000px){
-    #header{
-        /* background-color: #FBF3E4; */
-        /* border: 1px solid #000; */
-    }
+#header{
+    /* background-color: #FBF3E4; */
+    /* border: 1px solid #000; */
+}
 #sidebarMenu {
     height: 100%;
     position: fixed;
@@ -842,138 +842,131 @@ input#openSidebarMenu {
     transform: rotate(-135deg);
     margin-top: -9px;
 }
-    .logo{
-        margin-left: 100px;
-    }
-    .left-side {
-        /* border: 1px solid #000; */
-        width: 100%;display: block;
-    }
-    .head-dev{
-        width: 100%;
-        padding: 20px;
-    }
-    .right-side{
-        width: 100%;
-    }
-    #banner{
-        height: 900px;
-    }
-    .abt-left{
-        display: none;
-    }
-    .abt-right{
-        width: 100%;
-        height: 700px;
-        display: block;
-        position: static;
-    }
-    #about-Me{
-        width: 100%;
-        border-radius: 0%;
-        margin: 0%;
-
-    }
-    .abt-right>.pp{
-        width: 30%;
-    }
-    .road-map{
-        width: 100%;
-    }
-    .boxx img{
-        padding-left: 4%;
-    }
-    .Mpp{
-        width: 40%;
-        margin-top: 50px;
-    }
-    #portfolio{
-        width: 100%;
-        justify-content: center;
-        /* align-items: center; */
-        /* padding: 0% 130px; */
-        /* border: 1px solid #000; */
-    }
-    .items{
-        /* width: 100%; */
-        margin-bottom: 20px;
-    }
-
-    #resume{
-        width: 100%;
-        overflow: hidden;
-    }
-    .resume-left{
-        width: 100%;
-        /* border: 1px solid #000; */
-        /* margin-left: 50px; */
-        display: block;
-    }
-    .year-btn{
-        display: block;
-        margin-top: 20px;
-    }
-    .resume-right{
-        width: 100%;
-    }
-    .innerbox{
-        border-radius: 0%;
-        background-color: aliceblue;
-        /* border: 1px solid #000; */
-        background-color: rgba(128, 128, 128, 0.232);
-        z-index: 0;
-    }
-    .innerbox-second{
-        width: 80%;
-        /* height: 120px; */
-        /* margin-top: 640px; */
-        position: static;
-        margin-bottom: 20px;
-        border: 1px solid #000;
-        z-index: 0;
-    }
-    .Mpp2{
-        width: 80%;
-        /* margin-top: 100px; */
-    }
-    .testimonial{
-        justify-content: space-evenly;
-    }
-    #contact-us{
-        width: 100%;
-        height: 1200px;
-        border-radius: 0%;
-    }
-    .contact-left{
-        width: 100%;
-        display: block;
-        height: 600px;
-    }
-    .contact-right{
-        width: 100%;
-        height: 1000px;
-        display: block;
-        position: relative;
-        top: -230px;
-        padding: 10%;
-        margin: 0%;
-    }
-    label{
-        /* display: none; */
-        margin-top: 20px;
-    }
-    #responsive{
-        border: 1px solid #000;
-        overflow: hidden;
-    }
+.logo{
+    margin-left: 100px;
+}
+.left-side {
+    /* border: 1px solid #000; */
+    width: 100%;display: block;
+}
+.head-dev{
+    width: 100%;
+    padding: 20px;
+}
+.right-side{
+    width: 100%;
+}
+#banner{
+    height: 900px;
+}
+.abt-left{
+    display: none;
+}
+.abt-right{
+    width: 100%;
+    height: 700px;
+    display: block;
+    position: static;
+}
+#about-Me{
+    width: 100%;
+    border-radius: 0%;
+    margin: 0%;
+}
+.abt-right>.pp{
+    width: 30%;
+}
+.road-map{
+    width: 100%;
+}
+.boxx img{
+    padding-left: 4%;
+}
+.Mpp{
+    width: 40%;
+    margin-top: 50px;
+}
+#portfolio{
+    width: 100%;
+    justify-content: center;
+    /* align-items: center; */
+    /* padding: 0% 130px; */
+    /* border: 1px solid #000; */
+}
+.items{
+    /* width: 100%; */
+    margin-bottom: 20px;
+}
+#resume{
+    width: 100%;
+    overflow: hidden;
+}
+.resume-left{
+    width: 100%;
+    /* border: 1px solid #000; */
+    /* margin-left: 50px; */
+    display: block;
+}
+.year-btn{
+    display: block;
+    margin-top: 20px;
+}
+.resume-right{
+    width: 100%;
+}
+.innerbox{
+    border-radius: 0%;
+    background-color: aliceblue;
+    /* border: 1px solid #000; */
+    background-color: rgba(128, 128, 128, 0.232);
+    z-index: 0;
+}
+.innerbox-second{
+    width: 80%;
+    /* height: 120px; */
+    /* margin-top: 640px; */
+    position: static;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+    z-index: 0;
+}
+.Mpp2{
+    width: 80%;
+    /* margin-top: 100px; */
+}
+.testimonial{
+    justify-content: space-evenly;
+}
+#contact-us{
+    width: 100%;
+    height: 1200px;
+    border-radius: 0%;
+}
+.contact-left{
+    width: 100%;
+    display: block;
+    height: 600px;
+}
+.contact-right{
+    width: 100%;
+    height: 1000px;
+    display: block;
+    position: relative;
+    top: -230px;
+    padding: 10%;
+    margin: 0%;
+}
+label{
+    /* display: none; */
+    margin-top: 20px;
+}
+#responsive{
+    border: 1px solid #000;
+    overflow: hidden;
+}
 }
 
 @media only screen and (min-width:350px) and (max-width:599px) {
-    #header {
-        /* background-color: #FBF3E4;            */
-        /* border: 1px solid #000; */
-    }
-
     .nav {
         /* border: 1px solid #000; */
         width: 100%;
@@ -997,7 +990,7 @@ input#openSidebarMenu {
     .logo {
         width: 100%;
         /* overflow: hidden; */
-        margin-left: 100px;
+        margin-left: 5px;
     }
 
     .left-side {
