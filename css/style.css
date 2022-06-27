@@ -60,6 +60,50 @@ input#openSidebarMenu {
     overflow: hidden;
     /* z-index: -1; */
     /* opacity: 1; */
+    animation: banner 2s ease-in-out 0s 1 alternate none;
+}
+@keyframes banner {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
 }
 .wave{
     /* background-color: #09BEAD; */
@@ -178,6 +222,7 @@ input#openSidebarMenu {
     box-shadow: 0px 16px 29px #0BBEAD69;
     background-color: #09BEAD;
     cursor: pointer;
+    animation: banner 2s ease-in-out 0s 1 alternate none;
 }
 .btn1:hover{
     box-shadow: 0px 20px 40px #0BBEAD69;
@@ -196,6 +241,7 @@ input#openSidebarMenu {
     cursor: pointer;
     background-color: #FCA738;
     box-shadow: 0px 16px 28px #F57F1769;
+    animation: banner 2s ease-in-out 0s 1 alternate none;
 }
 .btn2:hover{
     box-shadow: 0px 20px 40px #f9872369;
@@ -229,6 +275,7 @@ input#openSidebarMenu {
     box-shadow: 5px 15px 15px grey;
     background-color: #FFFFFF;
     position: relative;
+    animation: banner 2s ease-in-out 0s 1 alternate none;
 }
 .abt-left{
     position: relative;
@@ -307,15 +354,63 @@ h4{
     margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
+    
 }
+
  #resume{
     width: 62%;
     /* border: 1px solid #000; */
     margin: 50px auto;
  }
 .items{
+    animation: portfolio 5s ease 0s infinite alternate forwards;
     padding-left: 15px;
     /* display: inline-block; */
+}
+@keyframes portfolio {
+	0% {
+		transform: translate(0);
+	}
+
+	10% {
+		transform: translate(-2px, -2px);
+	}
+
+	20% {
+		transform: translate(2px, -2px);
+	}
+
+	30% {
+		transform: translate(-2px, 2px);
+	}
+
+	40% {
+		transform: translate(2px, 2px);
+	}
+
+	50% {
+		transform: translate(-2px, -2px);
+	}
+
+	60% {
+		transform: translate(2px, -2px);
+	}
+
+	70% {
+		transform: translate(-2px, 2px);
+	}
+
+	80% {
+		transform: translate(-2px, -2px);
+	}
+
+	90% {
+		transform: translate(2px, -2px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
 }
 
 .resume-left{
